@@ -21,13 +21,12 @@ def main():
     request = ai.text_request()
     request.lang = 'en'
 
-    #print("\nYour Input : ",end=" ")
-    #request.query = input()
+    print("\nYour Input : ",end=" ")
+    request.query = input()
 
     response = request.getresponse()
     responsestr = response.read().decode('utf-8')
     response_obj = json.loads(responsestr)
-
     if response_obj["result"]["action"] != "country_info":
         return {}
     
@@ -46,8 +45,12 @@ def main():
     print (collection.find_one({"country": x})["gdb"])
     response_obj["result"]["fulfillment"]["speech"]=(collection.find_one({"country": x})["gdb"])
     response_obj["result"]["fulfillment"]["messages"][0]["speech"]=(collection.find_one({"country": x})["gdb"])
-    return ( response_obj["result"]["fulfillment"]["speech"]=(collection.find_one({"country": x})["gdb"]) and response_obj["result"]["fulfillment"]["messages"][0]["speech"]=(collection.find_one({"country": x})["gdb"]))
+    #return ( response_obj["result"]["fulfillment"]["speech"]=(collection.find_one({"country": x})["gdb"]) and response_obj["result"]["fulfillment"]["messages"][0]["speech"]=(collection.find_one({"country": x})["gdb"]))
 
+    print (response_obj)
 
 if __name__ == '__main__':
     main()
+
+
+
