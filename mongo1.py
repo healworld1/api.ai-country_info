@@ -27,11 +27,11 @@ def webhook():
     req = request.get_json(silent=True, force=True)
 
     print("Request:")
-    print(json.dumps(req, indent=2))
+    print(json.dumps(req, indent=4))
 
     res = processRequest(req)
 
-    res = json.dumps(res, indent=2)
+    res = json.dumps(res, indent=4)
     # print(res)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
@@ -57,7 +57,7 @@ def makeWebhookResult(country):
     db = client['apiai']
     collection = db['country_info']
     
-    speech = (collection.find_one({"country": country})["gdp"])
+    speech = 123
     print("Response:")
     print(speech)
 
