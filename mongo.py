@@ -21,8 +21,8 @@ def main():
     request = ai.text_request()
     request.lang = 'en'
 
-    print("\nYour Input : ",end=" ")
-    request.query = input()
+    #print("\nYour Input : ",end=" ")
+    #request.query = input()
 
     response = request.getresponse()
     responsestr = response.read().decode('utf-8')
