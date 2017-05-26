@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 
-from pymongo import MongoClient
-from bson.objectid import ObjectId
-import pprint
-
 from __future__ import print_function
 from future.standard_library import install_aliases
 install_aliases()
@@ -13,17 +9,10 @@ from urllib.request import urlopen, Request
 from urllib.error import HTTPError
 
 import json
-try:
-    import apiai
-except ImportError:
-    sys.path.append(
-        os.path.join(os.path.dirname(os.path.realpath(__file__)), os.pardir)
-    )
-    import apiai
-CLIENT_ACCESS_TOKEN = '3f578e2210364da29214176ca90623d0'
 import os
 import sys
-
+from pymongo import MongoClient
+import pprint
 
 from flask import Flask
 from flask import request
@@ -54,7 +43,6 @@ def processRequest(req):
 
 
     #data
-    request = req.get("country_info") 
     result = req.get("result") 
     parameters = result.get("parameters") 
     country = parameters.get("geo-country")
