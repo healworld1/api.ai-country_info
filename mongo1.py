@@ -77,7 +77,7 @@ def makeWebhookResult(country):
         "speech": speech,
         "displayText": speech,
         # "data": data,
-        "source": "heroku-apiai-country_info"
+        "source": "heroku-api.ai-country_info"
     }
 
 
