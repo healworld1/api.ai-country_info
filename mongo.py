@@ -43,7 +43,7 @@ def main():
     #pprint.pprint(collection.find_one({"country": "China"}))
     #print()
     
-    return (collection.find_one({"country": x})["gdb"])
+    print (collection.find_one({"country": x})["gdb"])
 
 
 if __name__ == '__main__':
