@@ -15,16 +15,15 @@ from flask import make_response
 app = Flask(__name__)
 
 @app.route('/webhook', methods=['POST'])
-
 def webhook():
     req = request.get_json(silent=True, force=True)
 
     print("Request:")
-    print(json.dumps(req, indent=4,, separators=(',', ': ')))
+    print(json.dumps(req, indent=4))
 
     res = processRequest(req)
 
-    res = json.dumps(res, indent=4, separators=(',', ': '))
+    res = json.dumps(res, indent=4)
     # print(res)
     r = make_response(res)
     r.headers['Content-Type'] = 'application/json'
@@ -63,7 +62,8 @@ def makeWebhookResult(country):
         "speech": speech,
         "displayText": speech,
         # "data": data,
-        "source": "apiai-country-info"
+        # "contextOut": [],
+        "source": "heroku-apiai-country-info"
     }
 
 
