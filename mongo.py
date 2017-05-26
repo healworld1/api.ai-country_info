@@ -21,14 +21,17 @@ def main():
     request = ai.text_request()
     request.lang = 'en'
 
-    #print("\n\nYour Input : ",end=" ")
+    #print("\nYour Input : ",end=" ")
     #request.query = input()
 
     response = request.getresponse()
     responsestr = response.read().decode('utf-8')
     response_obj = json.loads(responsestr)
 
-    print(response_obj["result"]["parameters"]["geo-country"])
+    if response_obj["result"]["action"] != "country_info":
+        return {}
+    
+    #print(response_obj["result"]["parameters"]["geo-country"])
     x=response_obj["result"]["parameters"]["geo-country"]
 
     client = MongoClient('localhost', 27017)
@@ -45,6 +48,3 @@ def main():
 
 if __name__ == '__main__':
     main()
-
-
-
