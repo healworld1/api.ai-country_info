@@ -45,7 +45,7 @@ def main():
     
     print (collection.find_one({"country": x})["gdb"])
     response_obj["result"]["fulfillment"]["speech"]=(collection.find_one({"country": x})["gdb"])
-    response_obj["result"]["fulfillment"]["messages"]["speech"]=(collection.find_one({"country": x})["gdb"])
+    response_obj["result"]["fulfillment"]["messages"][0]["speech"]=(collection.find_one({"country": x})["gdb"])
 
 
 if __name__ == '__main__':
