@@ -4,11 +4,8 @@ from __future__ import print_function
 from future.standard_library import install_aliases
 install_aliases()
 
-from urllib.parse import urlparse, urlencode
-from urllib.request import urlopen, Request
-from urllib.error import HTTPError
-
 import json
+import os
 
 from flask import Flask
 from flask import request
@@ -66,7 +63,7 @@ def makeWebhookResult(country):
         "speech": speech,
         "displayText": speech,
         # "data": data,
-        "source": "heroku-apiai-country-info"
+        "source": "apiai-country-info"
     }
 
 
