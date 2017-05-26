@@ -54,16 +54,16 @@ def makeWebhookResult(country):
             gdp = data_list[i]["gdp"]
 
     
-    speech = gdp
+    speech = 133
     print("Response:")
     print(speech)
 
     return {
-        "speech": speech,
-        "displayText": speech,
+        "speech": 133,
+        "displayText": 133,
         # "data": data,
         # "contextOut": [],
-        "source": "heroku-apiai-country-info"
+        "source": "apiai-country-info"
     }
 
 
