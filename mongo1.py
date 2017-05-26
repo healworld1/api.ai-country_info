@@ -57,7 +57,7 @@ def processRequest(req):
     request = req.get("country_info") 
     result = req.get("result") 
     parameters = result.get("parameters") 
-    country = parameters.get("country")
+    country = parameters.get("geo-country")
 
     res = makeWebhookResult(country)
     return res
