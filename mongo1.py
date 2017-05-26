@@ -23,9 +23,9 @@ except ImportError:
 CLIENT_ACCESS_TOKEN = '3f578e2210364da29214176ca90623d0'
 import os
 import sys
-import logging
 
-from flask import Flask, render_template
+
+from flask import Flask
 from flask import request
 from flask import make_response
 
@@ -59,19 +59,17 @@ def processRequest(req):
     parameters = result.get("parameters") 
     country = parameters.get("country")
 
-    res = makeWebhookResult(data)
+    res = makeWebhookResult(country)
     return res
 
-def makeWebhookResult(data):
+def makeWebhookResult(country):
 
     #mongo
     client = MongoClient('localhost', 27017)
     db = client['apiai']
     collection = db['country_info']
-    print (collection.find_one({"country": country})["gdb"])
     
-    speech = (collection.find_one({"country": country})["gdb"])
-
+    speech = (collection.find_one({"country": country})["gdp"])
     print("Response:")
     print(speech)
 
