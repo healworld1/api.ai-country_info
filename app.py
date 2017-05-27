@@ -53,6 +53,8 @@ def makeWebhookResult(country):
         if data_list[i]["country"] == country:
             gdp = data_list[i]["gdp"]
             break
+    if gdp is None:
+        return {}
     
     speech = gdp
     print("Response:")
