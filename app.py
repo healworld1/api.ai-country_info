@@ -49,14 +49,15 @@ def makeWebhookResult(country):
         #print (line)
         data_list.append(json.loads(line)) 
     #print (data_list)
+    gdp = 0
     for i in range(len(data_list)):
         if data_list[i]["country"] == country:
             gdp = data_list[i]["gdp"]
             break
-    if gdp is None:
+    if gdp ==0:
         return {}
     
-    speech = "The GDP of " + country + " is " + gdb + " million in 2015. Anything else?"
+    speech = "The GDP of " + country + " is " + gdp + " million in 2015. Anything else?"
     print("Response:")
     print(speech)
 
