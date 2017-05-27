@@ -56,7 +56,7 @@ def makeWebhookResult(country):
     if gdp is None:
         return {}
     
-    speech = gdp
+    speech = "The GDP of " + country + " is " + gdb + " million in 2015. Anything else?"
     print("Response:")
     print(speech)
 
