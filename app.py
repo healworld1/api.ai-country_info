@@ -54,13 +54,13 @@ def makeWebhookResult(country):
             gdp = data_list[i]["gdp"]
             break
     
-    speech = 133
+    speech = gdp
     print("Response:")
     print(speech)
 
     return {
-        "speech": 133,
-        "displayText": 133,
+        "speech": speech,
+        "displayText": speech,
         # "data": data,
         # "contextOut": [],
         "source": "apiai-country-info"
