@@ -98,7 +98,7 @@
     }
     function prepareResponse(val) {
       var debugJSON = JSON.stringify(val, undefined, 2),
-        spokenResponse = val.result.fulfillment.speech;
+        spokenResponse = val.result.speech;
       respond(spokenResponse);
       debugRespond(debugJSON);
     }
