@@ -45,11 +45,11 @@ def processRequest(req):
 
 def makeWebhookResult(country,topic):
     data_list = []
-    topic = ""
-    if topic = "GDP":
+
+    if topic == "GDP":
         json_file = open("gdp.json")
         topic = "GDP"
-    elif topic = "population":
+    elif topic == "population":
         json_file = open("population.json")
         topic = "population"
     
