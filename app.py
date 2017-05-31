@@ -38,26 +38,34 @@ def processRequest(req):
     result = req.get("result") 
     parameters = result.get("parameters") 
     country = parameters.get("geo-country")
+    topic = parameters.get("topic")
 
-    res = makeWebhookResult(country)
+    res = makeWebhookResult(country,topic)
     return res
 
-def makeWebhookResult(country):
+def makeWebhookResult(country,topic):
     data_list = []
-    json_file = open("apiai.json")
+    if topic = "GDP":
+        json_file = open("gdp.json")
+        topic = "GDP"
+    elif topic = "population":
+        json_file = open("population.json")
+        topic = "population"
+    
     for line in json_file:
         #print (line)
         data_list.append(json.loads(line)) 
     #print (data_list)
-    gdp = 0
+    
+    value = 0
     for i in range(len(data_list)):
         if data_list[i]["country"] == country:
-            gdp = data_list[i]["gdp"]
+            value = data_list[i][topic]
             break
-    if gdp ==0:
+    if value ==0:
         return {}
     
-    speech = "The GDP of " + country + " is " + gdp + " million in 2015. Anything else?"
+    speech = "The " + topic +" of " + country + " is " + value + " million in 2015. Anything else?"
     print("Response:")
     print(speech)
 
