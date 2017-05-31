@@ -1,0 +1,235 @@
+{"_id":{"$oid":"592f27da6466fd61ee286500"},"country":"Afghanistan","population":"32,527,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286501"},"country":"Albania","population":"2,897,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286502"},"country":"Algeria","population":"39,667,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286503"},"country":"American Samoa","population":"56,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286504"},"country":"Andorra","population":"70,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286505"},"country":"Angola","population":"25,022,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286506"},"country":"Anguilla","population":"15,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286507"},"country":"Antigua and Barbuda","population":"92,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286508"},"country":"Argentina","population":"43,417,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286509"},"country":"Armenia","population":"3,018,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650a"},"country":"Aruba","population":"104,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650b"},"country":"Australia","population":"23,969,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650c"},"country":"Austria","population":"8,545,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650d"},"country":"Azerbaijan","population":"9,754,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650e"},"country":"Bahamas, The","population":"388,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28650f"},"country":"Bahrain","population":"1,377,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286510"},"country":"Bangladesh","population":"160,996,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286511"},"country":"Barbados","population":"284,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286512"},"country":"Belarus","population":"9,496,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286513"},"country":"Belgium","population":"11,299,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286514"},"country":"Belize","population":"359,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286515"},"country":"Benin","population":"10,880,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286516"},"country":"Bermuda","population":"62,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286517"},"country":"Bhutan","population":"775,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286518"},"country":"Bolivia","population":"10,725,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286519"},"country":"Bosnia and Herzegovina","population":"3,810,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651a"},"country":"Botswana","population":"2,262,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651b"},"country":"Brazil","population":"207,848,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651c"},"country":"British Virgin Islands","population":"30,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651d"},"country":"Brunei Darussalam","population":"423,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651e"},"country":"Bulgaria","population":"7,150,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28651f"},"country":"Burkina Faso","population":"18,106,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286520"},"country":"Burundi","population":"11,179,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286521"},"country":"Cabo Verde","population":"521,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286522"},"country":"Cambodia","population":"15,578,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286523"},"country":"Cameroon","population":"23,344,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286524"},"country":"Canada","population":"35,940,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286525"},"country":"Caribbean Netherlands","population":"25,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286526"},"country":"Cayman Islands","population":"60,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286527"},"country":"Central African Republic","population":"4,900,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286528"},"country":"Chad","population":"14,037,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286529"},"country":"Channel Islands","population":"164,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652a"},"country":"Chile","population":"17,948,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652b"},"country":"China","population":"1,376,049,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652c"},"country":"Colombia","population":"48,229,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652d"},"country":"Comoros","population":"788,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652e"},"country":"Congo","population":"4,620,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28652f"},"country":"Congo (Democratic Republic of the)","population":"77,267,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286530"},"country":"Cook Islands","population":"21,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286531"},"country":"Costa Rica","population":"4,808,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286532"},"country":"Côte d'Ivoire","population":"22,702,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286533"},"country":"Croatia","population":"4,240,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286534"},"country":"Cuba","population":"11,390,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286535"},"country":"Curaçao","population":"157,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286536"},"country":"Cyprus","population":"1,165,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286537"},"country":"Czechia","population":"10,543,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286538"},"country":"Denmark","population":"5,669,000"}
+{"_id":{"$oid":"592f27da6466fd61ee286539"},"country":"Djibouti","population":"888,000"}
+{"_id":{"$oid":"592f27da6466fd61ee28653a"},"country":"Dominica","population":"73,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28653b"},"country":"Dominican Republic","population":"10,528,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28653c"},"country":"Ecuador","population":"16,144,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28653d"},"country":"Egypt","population":"91,508,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28653e"},"country":"El Salvador","population":"6,127,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28653f"},"country":"Equatorial Guinea","population":"845,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286540"},"country":"Eritrea","population":"5,228,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286541"},"country":"Estonia","population":"1,313,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286542"},"country":"Ethiopia","population":"99,391,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286543"},"country":"Faeroe Islands","population":"48,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286544"},"country":"Falkland Islands (Malvinas)","population":"3,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286545"},"country":"Fiji","population":"892,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286546"},"country":"Finland","population":"5,503,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286547"},"country":"France","population":"64,395,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286548"},"country":"French Guiana","population":"269,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286549"},"country":"French Polynesia","population":"283,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654a"},"country":"Gabon","population":"1,725,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654b"},"country":"Gambia, The","population":"1,991,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654c"},"country":"Georgia","population":"4,000,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654d"},"country":"Germany","population":"80,689,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654e"},"country":"Ghana","population":"27,410,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28654f"},"country":"Gibraltar","population":"32,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286550"},"country":"Greece","population":"10,955,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286551"},"country":"Greenland","population":"56,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286552"},"country":"Grenada","population":"107,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286553"},"country":"Guadeloupe","population":"468,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286554"},"country":"Guam","population":"170,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286555"},"country":"Guatemala","population":"16,343,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286556"},"country":"Guinea","population":"12,609,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286557"},"country":"Guinea-Bissau","population":"1,844,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286558"},"country":"Guyana","population":"767,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286559"},"country":"Haiti","population":"10,711,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655a"},"country":"Holy See","population":"1,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655b"},"country":"Honduras","population":"8,075,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655c"},"country":"Hong Kong","population":"7,288,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655d"},"country":"Hungary","population":"9,855,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655e"},"country":"Iceland","population":"329,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28655f"},"country":"India","population":"1,311,051,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286560"},"country":"Indonesia","population":"257,564,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286561"},"country":"Iran (Islamic Republic of)","population":"79,109,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286562"},"country":"Iraq","population":"36,423,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286563"},"country":"Ireland","population":"4,688,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286564"},"country":"Isle of Man","population":"88,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286565"},"country":"Israel","population":"8,064,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286566"},"country":"Italy","population":"59,798,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286567"},"country":"Jamaica","population":"2,793,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286568"},"country":"Japan","population":"126,573,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286569"},"country":"Jordan","population":"7,595,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656a"},"country":"Kazakhstan","population":"17,625,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656b"},"country":"Kenya","population":"46,050,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656c"},"country":"Kiribati","population":"112,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656d"},"country":"Korea (Republic of)","population":"25,155,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656e"},"country":"Kuwait","population":"3,892,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28656f"},"country":"Kyrgyzstan","population":"5,940,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286570"},"country":"Lao People's Democratic Republic","population":"6,802,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286571"},"country":"Latvia","population":"1,971,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286572"},"country":"Lebanon","population":"5,851,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286573"},"country":"Lesotho","population":"2,135,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286574"},"country":"Liberia","population":"4,503,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286575"},"country":"Libya","population":"6,278,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286576"},"country":"Liechtenstein","population":"38,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286577"},"country":"Lithuania","population":"2,878,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286578"},"country":"Luxembourg","population":"567,000"}
+{"_id":{"$oid":"592f27e76466fd61ee286579"},"country":"Macao","population":"588,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657a"},"country":"Madagascar","population":"24,235,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657b"},"country":"Malawi","population":"17,215,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657c"},"country":"Malaysia","population":"30,331,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657d"},"country":"Maldives","population":"364,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657e"},"country":"Mali","population":"17,600,000"}
+{"_id":{"$oid":"592f27e76466fd61ee28657f"},"country":"Malta","population":"419,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286580"},"country":"Marshall Islands","population":"53,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286581"},"country":"Martinique","population":"396,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286582"},"country":"Mauritania","population":"4,068,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286583"},"country":"Mauritius","population":"1,273,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286584"},"country":"Mayotte","population":"240,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286585"},"country":"Mexico","population":"127,017,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286586"},"country":"Micronesia (Federated States of)","population":"104,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286587"},"country":"Monaco","population":"38,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286588"},"country":"Mongolia","population":"2,959,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286589"},"country":"Montenegro","population":"626,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658a"},"country":"Montserrat","population":"5,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658b"},"country":"Morocco","population":"34,378,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658c"},"country":"Mozambique","population":"27,978,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658d"},"country":"Myanmar","population":"53,897,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658e"},"country":"Namibia","population":"2,459,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28658f"},"country":"Nauru","population":"10,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286590"},"country":"Nepal","population":"28,514,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286591"},"country":"Netherlands","population":"16,925,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286592"},"country":"New Caledonia","population":"263,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286593"},"country":"New Zealand","population":"4,529,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286594"},"country":"Nicaragua","population":"6,082,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286595"},"country":"Niger","population":"19,899,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286596"},"country":"Nigeria","population":"182,202,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286597"},"country":"Niue","population":"2,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286598"},"country":"Northern Mariana Islands","population":"55,000"}
+{"_id":{"$oid":"592f27f46466fd61ee286599"},"country":"Norway","population":"5,211,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659a"},"country":"Oman","population":"4,491,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659b"},"country":"Other non-specified areas","population":"23,381,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659c"},"country":"Pakistan","population":"188,925,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659d"},"country":"Palau","population":"21,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659e"},"country":"Panama","population":"3,929,000"}
+{"_id":{"$oid":"592f27f46466fd61ee28659f"},"country":"Papua New Guinea","population":"7,619,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a0"},"country":"Paraguay","population":"6,639,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a1"},"country":"Peru","population":"31,377,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a2"},"country":"Philippines","population":"100,699,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a3"},"country":"Poland","population":"38,612,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a4"},"country":"Portugal","population":"10,350,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a5"},"country":"Puerto Rico","population":"3,683,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a6"},"country":"Qatar","population":"2,235,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a7"},"country":"Republic of Korea","population":"50,293,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a8"},"country":"Republic of Moldova","population":"4,069,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865a9"},"country":"Réunion","population":"861,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865aa"},"country":"Romania","population":"19,511,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865ab"},"country":"Russian Federation","population":"143,457,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865ac"},"country":"Rwanda","population":"11,610,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865ad"},"country":"Saint Helena","population":"4,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865ae"},"country":"Saint Kitts and Nevis","population":"56,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865af"},"country":"Saint Lucia","population":"185,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b0"},"country":"Saint Pierre and Miquelon","population":"6,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b1"},"country":"Saint Vincent and the Grenadines","population":"109,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b2"},"country":"Samoa","population":"193,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b3"},"country":"San Marino","population":"32,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b4"},"country":"Sao Tome and Principe","population":"190,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b5"},"country":"Saudi Arabia","population":"31,540,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b6"},"country":"Senegal","population":"15,129,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b7"},"country":"Serbia","population":"8,851,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b8"},"country":"Seychelles","population":"96,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865b9"},"country":"Sierra Leone","population":"6,453,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865ba"},"country":"Singapore","population":"5,604,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865bb"},"country":"Sint Maarten (Dutch part)","population":"39,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865bc"},"country":"Slovakia","population":"5,426,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865bd"},"country":"Slovenia","population":"2,068,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865be"},"country":"Solomon Islands","population":"584,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865bf"},"country":"Somalia","population":"10,787,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865c0"},"country":"South Africa","population":"54,490,000"}
+{"_id":{"$oid":"592f27f46466fd61ee2865c1"},"country":"South Sudan","population":"12,340,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c2"},"country":"Spain","population":"46,122,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c3"},"country":"Sri Lanka","population":"20,715,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c4"},"country":"State of Palestine","population":"4,668,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c5"},"country":"Sudan","population":"40,235,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c6"},"country":"Suriname","population":"543,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c7"},"country":"Swaziland","population":"1,287,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c8"},"country":"Sweden","population":"9,779,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865c9"},"country":"Switzerland","population":"8,299,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865ca"},"country":"Syrian Arab Republic","population":"18,502,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865cb"},"country":"Tajikistan","population":"8,482,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865cc"},"country":"TFYR Macedonia","population":"2,078,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865cd"},"country":"Thailand","population":"67,959,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865ce"},"country":"Timor-Leste","population":"1,185,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865cf"},"country":"Togo","population":"7,305,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d0"},"country":"Tokelau","population":"1,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d1"},"country":"Tonga","population":"106,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d2"},"country":"Trinidad and Tobago","population":"1,360,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d3"},"country":"Tunisia","population":"11,254,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d4"},"country":"Turkey","population":"78,666,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d5"},"country":"Turkmenistan","population":"5,374,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d6"},"country":"Turks and Caicos Islands","population":"34,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d7"},"country":"Tuvalu","population":"10,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d8"},"country":"Uganda","population":"39,032,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865d9"},"country":"Ukraine","population":"44,824,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865da"},"country":"United Arab Emirates","population":"9,157,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865db"},"country":"United Kingdom of Great Britain and Northern Ireland","population":"64,716,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865dc"},"country":"United Republic of Tanzania","population":"53,470,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865dd"},"country":"United States of America","population":"321,774,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865de"},"country":"United States Virgin Islands","population":"106,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865df"},"country":"Uruguay","population":"3,432,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e0"},"country":"Uzbekistan","population":"29,893,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e1"},"country":"Vanuatu","population":"265,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e2"},"country":"Venezuela (Bolivarian Republic of)","population":"31,108,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e3"},"country":"Viet Nam","population":"93,448,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e4"},"country":"Wallis and Futuna Islands","population":"13,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e5"},"country":"Wallis and Futuna Islands","population":"13,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e6"},"country":"Western Sahara","population":"573,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e7"},"country":"World","population":"7,349,472,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e8"},"country":"Yemen","population":"26,832,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865e9"},"country":"Zambia","population":"16,212,000"}
+{"_id":{"$oid":"592f27fd6466fd61ee2865ea"},"country":"Zimbabwe","population":"15,603,000"}

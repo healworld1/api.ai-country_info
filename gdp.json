@@ -1,0 +1,197 @@
+{"_id":{"$oid":"592f2b6659c0153c503b8c8b"},"country":"Afghanistan","GDP":"19,331,290,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c8c"},"country":"Albania","GDP":"11,398,390,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c8d"},"country":"Algeria","GDP":"164,779,470,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c8e"},"country":"American Samoa","GDP":"641,000,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c8f"},"country":"Angola","GDP":"102,626,930,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c90"},"country":"Antigua and Barbuda","GDP":"1,259,260,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c91"},"country":"Argentina","GDP":"584,711,490,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c92"},"country":"Armenia","GDP":"10,529,180,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c93"},"country":"Australia","GDP":"1,339,140,530,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c94"},"country":"Austria","GDP":"376,950,250,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c95"},"country":"Azerbaijan","GDP":"53,047,140,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c96"},"country":"Bahamas, The","GDP":"8,853,520,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c97"},"country":"Bahrain","GDP":"31,125,850,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c98"},"country":"Bangladesh","GDP":"195,078,670,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c99"},"country":"Barbados","GDP":"4,385,250,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9a"},"country":"Belarus","GDP":"54,608,960,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9b"},"country":"Belgium","GDP":"455,085,950,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9c"},"country":"Belize","GDP":"1,752,860,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9d"},"country":"Benin","GDP":"8,290,990,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9e"},"country":"Bermuda","GDP":"84,470,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8c9f"},"country":"Bhutan","GDP":"2,057,950,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca0"},"country":"Bolivia","GDP":"32,997,680,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca1"},"country":"Bosnia and Herzegovina","GDP":"16,191,720,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca2"},"country":"Botswana","GDP":"14,389,720,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca3"},"country":"Brazil","GDP":"1,803,652,650,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca4"},"country":"Brunei Darussalam","GDP":"12,930,390,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca5"},"country":"Bulgaria","GDP":"50,199,120,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca6"},"country":"Burkina Faso","GDP":"10,678,200,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca7"},"country":"Burundi","GDP":"3,097,320,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca8"},"country":"Cabo Verde","GDP":"1,603,240,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8ca9"},"country":"Cambodia","GDP":"18,049,950,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8caa"},"country":"Cameroon","GDP":"28,415,950,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cab"},"country":"Canada","GDP":"1,552,807,650,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cac"},"country":"Central African Republic","GDP":"1,583,780,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cad"},"country":"Chad","GDP":"10,888,800,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cae"},"country":"Chile","GDP":"240,796,390,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8caf"},"country":"China","GDP":"11,064,664,790,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb0"},"country":"Colombia","GDP":"292,080,160,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb1"},"country":"Comoros","GDP":"565,690,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb2"},"country":"Congo (Democratic Republic of the)","GDP":"35,237,740,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb3"},"country":"Congo","GDP":"8,553,150,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb4"},"country":"Costa Rica","GDP":"54,136,830,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb5"},"country":"Côte d'Ivoire","GDP":"31,759,250,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb6"},"country":"Croatia","GDP":"48,732,000,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb7"},"country":"Cuba","GDP":"87,132,800,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb8"},"country":"Cyprus","GDP":"19,559,940,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cb9"},"country":"Czechia","GDP":"185,156,360,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cba"},"country":"Denmark","GDP":"301,307,830,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cbb"},"country":"Djibouti","GDP":"1,727,000,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cbc"},"country":"Dominica","GDP":"517,220,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cbd"},"country":"Dominican Republic","GDP":"68,102,620,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cbe"},"country":"Ecuador","GDP":"100,176,810,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cbf"},"country":"Egypt","GDP":"330,778,550,000"}
+{"_id":{"$oid":"592f2b6659c0153c503b8cc0"},"country":"El Salvador","GDP":"25,850,200,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc1"},"country":"Equatorial Guinea","GDP":"12,202,320,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc2"},"country":"Estonia","GDP":"22,459,440,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc3"},"country":"Ethiopia","GDP":"61,539,710,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc4"},"country":"Fiji","GDP":"4,425,500,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc5"},"country":"Finland","GDP":"232,351,110,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc6"},"country":"France","GDP":"2,418,835,530,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc7"},"country":"Gabon","GDP":"14,262,030,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc8"},"country":"Gambia, The","GDP":"938,790,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cc9"},"country":"Georgia","GDP":"13,965,390,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cca"},"country":"Germany","GDP":"3,363,446,820,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ccb"},"country":"Ghana","GDP":"37,543,360,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ccc"},"country":"Greece","GDP":"194,851,320,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ccd"},"country":"Grenada","GDP":"984,070,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cce"},"country":"Guam","GDP":"5,734,000,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ccf"},"country":"Guatemala","GDP":"63,794,150,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd0"},"country":"Guinea","GDP":"6,699,200,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd1"},"country":"Guinea-Bissau","GDP":"1,056,780,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd2"},"country":"Guyana","GDP":"3,166,030,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd3"},"country":"Haiti","GDP":"8,765,330,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd4"},"country":"Honduras","GDP":"20,420,970,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd5"},"country":"Hong Kong","GDP":"309,234,500,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd6"},"country":"Hungary","GDP":"121,715,200,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd7"},"country":"Iceland","GDP":"16,779,600,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd8"},"country":"India","GDP":"2,088,841,350,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cd9"},"country":"Indonesia","GDP":"861,933,970,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cda"},"country":"Iran (Islamic Republic of)","GDP":"4,199,130,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cdb"},"country":"Iraq","GDP":"180,068,540,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cdc"},"country":"Ireland","GDP":"283,703,220,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cdd"},"country":"Israel","GDP":"299,415,710,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cde"},"country":"Italy","GDP":"1,821,496,960,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cdf"},"country":"Jamaica","GDP":"14,262,190,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce0"},"country":"Japan","GDP":"4,383,076,300,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce1"},"country":"Jordan","GDP":"37,517,410,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce2"},"country":"Kazakhstan","GDP":"184,388,430,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce3"},"country":"Kenya","GDP":"63,398,040,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce4"},"country":"Kiribati","GDP":"160,120,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce5"},"country":"Korea (Republic of)","GDP":"1,377,873,110,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce6"},"country":"Kosovo","GDP":"6,400,690,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce7"},"country":"Kuwait","GDP":"114,041,210,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce8"},"country":"Kyrgyzstan","GDP":"6,571,850,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ce9"},"country":"Lao People's Democratic Republic","GDP":"12,369,080,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cea"},"country":"Latvia","GDP":"27,002,830,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ceb"},"country":"Lebanon","GDP":"47,084,700,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cec"},"country":"Lesotho","GDP":"2,278,040,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8ced"},"country":"Liberia","GDP":"2,053,000,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cee"},"country":"Lithuania","GDP":"41,400,140,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cef"},"country":"Luxembourg","GDP":"56,799,630,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf0"},"country":"Macao","GDP":"46,177,530,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf1"},"country":"Macedonia (the former Yugoslav Republic of)","GDP":"10,086,020,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf2"},"country":"Madagascar","GDP":"9,738,650,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf3"},"country":"Malawi","GDP":"6,403,820,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf4"},"country":"Malaysia","GDP":"296,283,190,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf5"},"country":"Maldives","GDP":"3,435,240,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf6"},"country":"Mali","GDP":"12,746,690,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf7"},"country":"Malta","GDP":"9,746,480,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf8"},"country":"Marshall Islands","GDP":"179,430,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cf9"},"country":"Mauritania","GDP":"92,610,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cfa"},"country":"Mauritius","GDP":"11,681,760,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cfb"},"country":"Mexico","GDP":"1,143,793,180,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cfc"},"country":"Micronesia (Federated States of)","GDP":"314,970,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cfd"},"country":"Moldova (Republic of)","GDP":"6,568,290,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cfe"},"country":"Mongolia","GDP":"11,741,340,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8cff"},"country":"Montenegro","GDP":"3,987,060,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d00"},"country":"Morocco","GDP":"100,593,280,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d01"},"country":"Mozambique","GDP":"14,807,080,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d02"},"country":"Myanmar","GDP":"62,600,910,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d03"},"country":"Namibia","GDP":"11,491,510,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d04"},"country":"Nauru","GDP":"100,460,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d05"},"country":"Nepal","GDP":"21,194,890,000"}
+{"_id":{"$oid":"592f2b6f59c0153c503b8d06"},"country":"Netherlands","GDP":"750,283,910,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d07"},"country":"New Zealand","GDP":"173,754,080,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d08"},"country":"Nicaragua","GDP":"12,692,560,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d09"},"country":"Niger","GDP":"7,142,950,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0a"},"country":"Nigeria","GDP":"486,792,840,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0b"},"country":"Northern Mariana Islands","GDP":"922,000,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0c"},"country":"Norway","GDP":"386,578,440,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0d"},"country":"Oman","GDP":"69,830,950,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0e"},"country":"Pakistan","GDP":"271,049,890,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d0f"},"country":"Palau","GDP":"287,400,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d10"},"country":"Panama","GDP":"52,132,290,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d11"},"country":"Papua New Guinea","GDP":"230,500,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d12"},"country":"Paraguay","GDP":"27,093,940,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d13"},"country":"Peru","GDP":"189,111,140,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d14"},"country":"Philippines","GDP":"292,451,390,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d15"},"country":"Poland","GDP":"477,066,450,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d16"},"country":"Portugal","GDP":"199,112,620,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d17"},"country":"Puerto Rico","GDP":"1,691,900,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d18"},"country":"Qatar","GDP":"164,641,480,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d19"},"country":"Romania","GDP":"177,954,490,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1a"},"country":"Russian Federation","GDP":"1,365,865,250,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1b"},"country":"Rwanda","GDP":"8,095,980,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1c"},"country":"Samoa","GDP":"761,040,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1d"},"country":"Sao Tome and Principe","GDP":"317,700,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1e"},"country":"Saudi Arabia","GDP":"646,001,870,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d1f"},"country":"Senegal","GDP":"13,609,990,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d20"},"country":"Serbia","GDP":"37,160,330,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d21"},"country":"Seychelles","GDP":"1,437,720,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d22"},"country":"Sierra Leone","GDP":"4,214,780,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d23"},"country":"Singapore","GDP":"292,739,310,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d24"},"country":"Slovakia","GDP":"87,263,620,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d25"},"country":"Slovenia","GDP":"42,774,770,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d26"},"country":"Solomon Islands","GDP":"1,129,160,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d27"},"country":"Somalia","GDP":"5,925,000,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d28"},"country":"South Africa","GDP":"314,571,950,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d29"},"country":"South Sudan","GDP":"9,015,220,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2a"},"country":"Spain","GDP":"1,192,901,190,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2b"},"country":"Sri Lanka","GDP":"82,316,170,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2c"},"country":"Saint Kitts and Nevis","GDP":"876,480,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2d"},"country":"Saint Lucia","GDP":"1,431,140,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2e"},"country":"Saint Vincent and the Grenadines","GDP":"737,680,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d2f"},"country":"Sudan","GDP":"97,156,120,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d30"},"country":"Suriname","GDP":"5,150,290,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d31"},"country":"Swaziland","GDP":"4,118,490,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d32"},"country":"Sweden","GDP":"495,694,360,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d33"},"country":"Switzerland","GDP":"670,789,930,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d34"},"country":"Syrian Arab Republic","GDP":"857,700,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d35"},"country":"Tajikistan","GDP":"7,853,450,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d36"},"country":"Tanzania, United Republic of","GDP":"45,628,250,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d37"},"country":"Thailand","GDP":"395,168,030,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d38"},"country":"Timor-Leste","GDP":"1,441,720,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d39"},"country":"Togo","GDP":"4,087,900,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3a"},"country":"Tonga","GDP":"435,140,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3b"},"country":"Trinidad and Tobago","GDP":"23,559,290,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3c"},"country":"Tunisia","GDP":"43,015,090,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3d"},"country":"Turkey","GDP":"717,879,790,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3e"},"country":"Turkmenistan","GDP":"35,854,570,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d3f"},"country":"Tuvalu","GDP":"32,670,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d40"},"country":"Uganda","GDP":"27,529,250,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d41"},"country":"Ukraine","GDP":"90,615,020,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d42"},"country":"United Arab Emirates","GDP":"370,296,260,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d43"},"country":"United Kingdom of Great Britain and Northern Ireland","GDP":"2,861,090,730,000"}
+{"_id":{"$oid":"592f2b7a59c0153c503b8d44"},"country":"United States of America","GDP":"18,036,648,000,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d45"},"country":"Uruguay","GDP":"53,442,700,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d46"},"country":"Uzbekistan","GDP":"66,732,740,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d47"},"country":"Vanuatu","GDP":"742,430,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d48"},"country":"Venezuela (Bolivarian Republic of)","GDP":"8,736,940,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d49"},"country":"Viet Nam","GDP":"193,599,380,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4a"},"country":"Virgin Islands (U.S.)","GDP":"3,765,000,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4b"},"country":"West Bank and Gaza","GDP":"12,677,400,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4c"},"country":"Yemen","GDP":"37,733,920,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4d"},"country":"Zambia","GDP":"21,154,390,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4e"},"country":"Zimbabwe","GDP":"14,419,190,000"}
+{"_id":{"$oid":"592f2b8059c0153c503b8d4f"},"country":"World","GDP":"74,292,303,730,000"}
