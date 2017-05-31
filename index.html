@@ -87,7 +87,7 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
-        data: JSON.stringify({query: text, lang: "en", sessionId: "1a7e6d0e-997a-4ecf-bdde-aa7f8a1c2766"}),
+        data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         success: function(data) {
           prepareResponse(data);
         },
