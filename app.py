@@ -66,7 +66,7 @@ def makeWebhookResult(country,topic):
     if value ==0:
         return {}
     
-    speech = "The " + topic +" of " + country + " is " + value + " million in 2015. Anything else?"
+    speech = "The " + topic +" of " + country + " is " + value + " in 2015. Anything else?"
     print("Response:")
     print(speech)
 
