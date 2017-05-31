@@ -80,7 +80,7 @@
     function send() {
       var text = $speechInput.val();
       $.ajax({
-        type: "POST",
+        type: "GET",
         url: baseUrl + "query",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
