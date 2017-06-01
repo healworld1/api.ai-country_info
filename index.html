@@ -111,7 +111,7 @@
         spokenResponse = val.result.speech;
       
       if (val.result.action == "country_info") {
-        requestCountry_infoData(val.result.parameters.geo-country);
+        requestCountry_infoData(debugJSON); //val.result.parameters.geo-country);
       } else {
         respond(spokenResponse);
       }
@@ -139,14 +139,15 @@
       $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
     }
     
-    function requestCountry_infoData() {
+    function requestCountry_infoData(val) {
        $.ajax({
         type: "POST",
-        url: "https://apiai-country-info.herokuapp.com/webhook",
+        url: "https://apiai-country-info.herokuapp.com/webhook/query",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
+        data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          repond("I love you");
+          repond(data);
         },
         error: function() {
           respond(messageInternalError);
@@ -155,9 +156,14 @@
     }
     
           
+
+
+    
           
           
-          
+    
+    
+    
           
           
           
