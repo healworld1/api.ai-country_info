@@ -111,7 +111,7 @@
         spokenResponse = val.result.speech;
       
       if (val.result.action == "country_info") {
-        requestCountry_infoData(debugJSON); //val.result.parameters.geo-country);
+        requestCountry_infoData(val); //val.result.parameters.geo-country);
       } else {
         respond(spokenResponse);
       }
@@ -147,7 +147,7 @@
         dataType: "json",
         data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          repond(val.result.speech);
+          repond(val.speech);
         },
         error: function() {
           respond(messageInternalError);
