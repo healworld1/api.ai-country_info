@@ -35,8 +35,7 @@ def processRequest(req):
 
 
     #get country
-    result = req.get("result") 
-    parameters = result.get("parameters") 
+    parameters = req.get("result").get("parameters")
     country = parameters.get("geo-country")
     topic = parameters.get("topic")
 
@@ -44,7 +43,7 @@ def processRequest(req):
     return res
 
 def makeWebhookResult(country,topic):
-    data_list = []
+
 
     if topic == "GDP":
         json_file = open("gdp.json")
@@ -53,16 +52,12 @@ def makeWebhookResult(country,topic):
         json_file = open("population.json")
         topic = "population"
     
-    for line in json_file:
-        #print (line)
-        data_list.append(json.loads(line)) 
-    #print (data_list)
-    
     value = 0
-    for i in range(len(data_list)):
-        if data_list[i]["country"] == country:
-            value = data_list[i][topic]
+    for line in json_file:
+        if json.loads(line)["country"] == country:
+            value = json.loads(line)["population"]
             break
+    
     if value ==0:
         return {}
     
