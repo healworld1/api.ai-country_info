@@ -142,7 +142,7 @@
     function requestCountry_infoData() {
        $.ajax({
         type: "GET",
-        url: baseUrl,
+        url: "https://apiai-country-info.herokuapp.com/webhook",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function(data) {
