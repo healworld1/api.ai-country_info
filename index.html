@@ -108,7 +108,7 @@
     
     function prepareResponse(val) {
       var debugJSON = JSON.stringify(val, undefined, 2),
-        spokenResponse = val.result.fulfillment.speech;
+        spokenResponse = val.result.speech;
       
       if (val.result.action.equals("country_info") {
         requestCountry_infoData(val); //val.result.parameters.geo-country);
