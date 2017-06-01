@@ -141,16 +141,12 @@
     
     function requestCountry_infoData() {
        $.ajax({
-        type: "GET",
+        type: "POST",
         url: "https://apiai-country-info.herokuapp.com/webhook",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         success: function(data) {
-          if (data.error) {
-            respond(data.error);
-          } else {
-            repond("I love you");
-          }
+          repond("I love you");
         },
         error: function() {
           respond(messageInternalError);
@@ -158,9 +154,6 @@
       });
     }
     
-    
-    
-          
           
           
           
