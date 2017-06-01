@@ -111,7 +111,7 @@
         spokenResponse = val.result.speech;
       
       if (val.result.action == "country_info") {
-        requestCountry_infoData(val.result.parameters.country);
+        requestCountry_infoData(val.result.parameters.geo-country);
       } else {
         respond(spokenResponse);
       }
