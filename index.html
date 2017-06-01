@@ -147,7 +147,7 @@
         dataType: "json",
         data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          repond(data);
+          repond(val.result.speech);
         },
         error: function() {
           respond(messageInternalError);
