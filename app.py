@@ -55,7 +55,7 @@ def makeWebhookResult(country,topic):
     value = 0
     for line in json_file:
         if json.loads(line)["country"] == country:
-            value = json.loads(line)["population"]
+            value = json.loads(line)[topic]
             break
     
     if value ==0:
