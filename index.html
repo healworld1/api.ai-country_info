@@ -13,9 +13,11 @@
       messageCouldntHear = "I couldn't hear you, could you say that again?",
       messageInternalError = "Oh no, there has been an internal server error",
       messageSorry = "I'm sorry, I don't have the answer to that yet.";
+    
     $(document).ready(function() {
       $speechInput = $("#speech");
       $recBtn = $("#rec");
+      
       $speechInput.keypress(function(event) {
         if (event.which == 13) {
           event.preventDefault();
@@ -30,10 +32,12 @@
         return false;
       });
     });
+    
     function startRecognition() {
       recognition = new webkitSpeechRecognition();
       recognition.continuous = false;
           recognition.interimResults = false;
+      
       recognition.onstart = function(event) {
         respond(messageRecording);
         updateRec();
@@ -63,6 +67,7 @@
       }
       updateRec();
     }
+    
     function switchRecognition() {
       if (recognition) {
         stopRecognition();
@@ -70,13 +75,16 @@
         startRecognition();
       }
     }
+    
     function setInput(text) {
       $speechInput.val(text);
       send();
     }
+    
     function updateRec() {
       $recBtn.text(recognition ? "Stop" : "Speak");
     }
+    
     function send() {
       var text = $speechInput.val();
       $.ajax({
@@ -87,8 +95,8 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
-        webhook()
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
+        
         success: function(data) {
           prepareResponse(data);
         },
@@ -97,19 +105,29 @@
         }
       });
     }
+    
     function prepareResponse(val) {
       var debugJSON = JSON.stringify(val, undefined, 2),
         spokenResponse = val.result.speech;
-      respond(spokenResponse);
+      
+      if (val.result.action == "country_info") {
+        requestCountry_infoData(val.result.parameters.country);
+      } else {
+        respond(spokenResponse);
+      }
+      
       debugRespond(debugJSON);
     }
+    
     function debugRespond(val) {
       $("#response").text(val);
     }
+    
     function respond(val) {
       if (val == "") {
         val = messageSorry;
       }
+      
       if (val !== messageRecording) {
         var msg = new SpeechSynthesisUtterance();
         msg.voiceURI = "native";
@@ -117,8 +135,41 @@
         msg.lang = "en-US";
         window.speechSynthesis.speak(msg);
       }
+      
       $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
     }
+    
+    function requestCountry_infoData() {
+       $.ajax({
+        type: "GET",
+        url: baseUrl + "query",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        success: function(data) {
+          if (data.error) {
+            respond(data.error);
+          } else {
+            repond("I love you");
+          }
+        },
+        error: function() {
+          respond(messageInternalError);
+        }
+      });
+    }
+    
+    
+    
+          
+          
+          
+          
+          
+          
+          
+          
+          
+          
   </script>
   <style type="text/css">
     html {
