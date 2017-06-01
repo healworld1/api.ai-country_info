@@ -87,6 +87,7 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
+        webhook()
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         success: function(data) {
           prepareResponse(data);
