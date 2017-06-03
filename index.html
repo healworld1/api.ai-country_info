@@ -9,6 +9,7 @@
       $speechInput,
       $recBtn,
       recognition,
+      spokenResponse,
       messageRecording = "Recording...",
       messageCouldntHear = "I couldn't hear you, could you say that again?",
       messageInternalError = "Oh no, there has been an internal server error",
@@ -107,15 +108,14 @@
     }
     
     function prepareResponse(val) {
-      var debugJSON = JSON.stringify(val, undefined, 2),
+      var debugJSON = JSON.stringify(val, undefined, 2);
         spokenResponse = val.result.speech;
+      requestCountry_infoData(val)
       
-      if (val.result.action.equals("country_info") {
-        requestCountry_infoData(val); //val.result.parameters.geo-country);
-      } else {
-        respond(spokenResponse);
-      }
+      //if (val.result.action.equals("country_info") {
+      //  ; //val.result.parameters.geo-country);
       
+      respond(spokenResponse);
       debugRespond(debugJSON);
     }
     
@@ -147,10 +147,9 @@
         dataType: "json",
         data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          repond("I love you");
+          spokenResponse = val.speech;
         },
         error: function() {
-          respond(messageInternalError);
         }
       });
     }
