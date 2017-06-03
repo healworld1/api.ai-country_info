@@ -13,7 +13,8 @@
       messageRecording = "Recording...",
       messageCouldntHear = "I couldn't hear you, could you say that again?",
       messageInternalError = "Oh no, there has been an internal server error",
-      messageSorry = "I'm sorry, I don't have the answer to that yet.";
+      messageSorry = "I'm sorry, I don't have the answer to that yet.",
+      debugJSON;
     
     $(document).ready(function() {
       $speechInput = $("#speech");
@@ -108,7 +109,7 @@
     }
     
     function prepareResponse(val) {
-      var debugJSON = JSON.stringify(val, undefined, 2);
+      //var debugJSON = JSON.stringify(val, undefined, 2);
         spokenResponse = val.result.speech;
       requestCountry_infoData(val)
       
@@ -140,7 +141,8 @@
     }
     
     function requestCountry_infoData(val) {
-       $.ajax({
+      debugJSON = JSON.stringify(val, undefined, 2) 
+      $.ajax({
         type: "POST",
         url: "https://apiai-country-info.herokuapp.com/webhook",
         contentType: "application/json; charset=utf-8",
