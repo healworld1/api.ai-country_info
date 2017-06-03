@@ -9,12 +9,11 @@
       $speechInput,
       $recBtn,
       recognition,
-      spokenResponse,
       messageRecording = "Recording...",
       messageCouldntHear = "I couldn't hear you, could you say that again?",
-      messageInternalError = "Oh no, there has been an internal server error",
-      messageSorry = "I'm sorry, I don't have the answer to that yet.",
-      debugJSON;
+      messageInternalError1 = "Oh no, there has been an internal server error from api.ai",
+      messageInternalError2 = "Oh no, there has been an internal server error from heroku",
+      messageSorry = "I'm sorry, I don't have the answer to that yet.";
     
     $(document).ready(function() {
       $speechInput = $("#speech");
@@ -100,18 +99,42 @@
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
         success: function(data) {
-          prepareResponse(data);
+          requestCountry_infoData(data);
         },
         error: function() {
-          respond(messageInternalError);
+          respond(messageInternalError1);
         }
       });
     }
     
+    function requestCountry_infoData(val) {
+      
+      $.ajax({
+        type: "POST",
+        url: "https://apiai-country-info.herokuapp.com/webhook",
+        contentType: "application/json; charset=utf-8",
+        dataType: "json",
+        data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
+        success: function(data) {
+          prepareResponse(data);
+        },
+        error: function() {
+          respond(messageInternalError2);
+        }
+
+      });
+    }
+    
+    
+    
+    
+    
+    
+    
+    
     function prepareResponse(val) {
-      //var debugJSON = JSON.stringify(val, undefined, 2);
-        spokenResponse = val.result.speech;
-      requestCountry_infoData(val)
+      var debugJSON = JSON.stringify(val, undefined, 2),
+        spokenResponse = val.speech;
       
       //if (val.result.action.equals("country_info") {
       //  ; //val.result.parameters.geo-country);
@@ -140,22 +163,7 @@
       $("#spokenResponse").addClass("is-active").find(".spoken-response__text").html(val);
     }
     
-    function requestCountry_infoData(val) {
-      
-      $.ajax({
-        type: "POST",
-        url: "https://apiai-country-info.herokuapp.com/webhook",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
-        success: function(data) {
-          spokenResponse = data.speech;
-        },
-        error: function() {
-        }
-        debugJSON = JSON.stringify(data, undefined, 2) 
-      });
-    }
+
     
           
 
