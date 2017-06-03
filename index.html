@@ -114,7 +114,10 @@
         url: "https://apiai-country-info.herokuapp.com/webhook",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
+        headers: {
+        },
         data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
+        
         success: function(data) {
           prepareResponse(data);
         },
