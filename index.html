@@ -141,7 +141,7 @@
     }
     
     function requestCountry_infoData(val) {
-      debugJSON = JSON.stringify(val, undefined, 2) 
+      
       $.ajax({
         type: "POST",
         url: "https://apiai-country-info.herokuapp.com/webhook",
@@ -149,10 +149,11 @@
         dataType: "json",
         data: JSON.stringify({query: val, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          spokenResponse = val.speech;
+          spokenResponse = data.speech;
         },
         error: function() {
         }
+        debugJSON = JSON.stringify(data, undefined, 2) 
       });
     }
     
