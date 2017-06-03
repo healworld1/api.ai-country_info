@@ -129,7 +129,8 @@
     }*/
     
     function send() {
-      var text = $speechInput.val();
+      var text = $speechInput.val(),
+          finalData;
       $.ajax({
         type: "POST",
         url: baseUrl + "query?v=20150910",
@@ -140,13 +141,25 @@
         },
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         success: function(data) {
-          prepareResponse(data);
+          //prepareResponse(data);
         },
         error: function() {
           respond(messageInternalError1);
         }
       });
+      finalData = httpGet(url);
+      prepareResponse(finalData);
     }
+    
+    
+    function httpGet(theUrl){
+      var xmlHttp = new XMLHttpRequest();
+      xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
+      xmlHttp.send( null );
+      return xmlHttp.responseText;
+    }
+    
+    
     
     
     
