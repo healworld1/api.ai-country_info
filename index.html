@@ -147,7 +147,7 @@
           respond(messageInternalError1);
         }
       });
-      finalData = httpGet(url);
+      finalData = JSON.stringify(httpGet(url));
       prepareResponse(finalData);
     }
     
