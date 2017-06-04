@@ -86,11 +86,11 @@
       $recBtn.text(recognition ? "Stop" : "Speak");
     }
     
-    /*function send() {
+    function send() {
       var text = $speechInput.val();
       $.ajax({
         type: "POST",
-        url: baseUrl + "query",
+        url: baseUrl + "query?v=20150910",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         headers: {
@@ -108,7 +108,6 @@
     }
     
     function requestCountry_infoData(val) {
-      
       $.ajax({
         type: "POST",
         url: "https://apiai-country-info.herokuapp.com/webhook",
@@ -126,46 +125,10 @@
         }
 
       });
-    }*/
-    
-    function send() {
-      var text = $speechInput.val(),
-          finalData;
-      $.ajax({
-        type: "POST",
-        url: baseUrl + "query?v=20150910",
-        contentType: "application/json; charset=utf-8",
-        dataType: "json",
-        headers: {
-          "Authorization": "Bearer " + accessToken
-        },
-        data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
-        success: function() {
-          requestData();
-        },
-        error: function() {
-          respond(messageInternalError1);
-        }
-      });
-     
-      
     }
     
-  function requestData() {
-    $.ajax({
-      type: "GET",
-      url: baseUrl,
-      contentType: "application/json; charset=utf-8",
-      dataType: "json",
-      data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
-      success: function(data) {
-        prepareResponse(data);
-      },
-      error: function() {
-        respond(messageInternalError);
-      }
-    });
-  }
+    
+    
     
     
     
