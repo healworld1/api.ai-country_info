@@ -96,10 +96,16 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
-        data: JSON({query: text, lang: "en", sessionId: "unknown"}), //JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
+        data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
         success: function(data) {
-          requestCountry_infoData(data);
+          if (data.result.parameters."geo-country"	!= null && 
+              data.result.parameters.topic	!= null && 
+              data.result.action("country_info") ) {
+            requestCountry_infoData(data);
+          } else {
+            prepareResponse(data)
+          }
         },
         error: function() {
           respond(messageInternalError1);
