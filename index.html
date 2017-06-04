@@ -154,7 +154,7 @@
   function requestData() {
     $.ajax({
       type: "GET",
-      url: baseUrl + "query?v=20150910",
+      url: baseUrl,
       contentType: "application/json; charset=utf-8",
       dataType: "json",
       data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
