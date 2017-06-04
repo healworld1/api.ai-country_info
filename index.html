@@ -96,7 +96,7 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
-        data: ({query: text, lang: "en", sessionId: "unknown"}), //JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
+        data: JSON({query: text, lang: "en", sessionId: "unknown"}), //JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
         success: function(data) {
           requestCountry_infoData(data);
