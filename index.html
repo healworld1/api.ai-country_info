@@ -96,7 +96,7 @@
         headers: {
           "Authorization": "Bearer " + accessToken
         },
-        data: {query: text, lang: "en", sessionId: "unknown"}, //JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
+        data: ({query: text, lang: "en", sessionId: "unknown"}), //JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
         success: function(data) {
           requestCountry_infoData(data);
@@ -110,7 +110,7 @@
     function requestCountry_infoData(val) {
       $.ajax({
         type: "POST",
-        url: "https://apiai-country-info.herokuapp.com/query",
+        url: "https://apiai-country-info.herokuapp.com/webhook",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         headers: {
