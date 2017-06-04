@@ -140,24 +140,32 @@
           "Authorization": "Bearer " + accessToken
         },
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
-        success: function(data) {
-          //prepareResponse(data);
+        success: function() {
+          requestData();
         },
         error: function() {
           respond(messageInternalError1);
         }
       });
-      finalData = JSON.stringify(httpGet(url));
-      prepareResponse(finalData);
+     
+      
     }
     
-    
-    function httpGet(theUrl){
-      var xmlHttp = new XMLHttpRequest();
-      xmlHttp.open( "GET", theUrl, false ); // false for synchronous request
-      xmlHttp.send( null );
-      return xmlHttp.responseText;
-    }
+  function requestData() {
+    $.ajax({
+      type: "GET",
+      url: baseUrl + "query?v=20150910",
+      contentType: "application/json; charset=utf-8",
+      dataType: "json",
+      data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
+      success: function(data) {
+        prepareResponse(data);
+      },
+      error: function() {
+        respond(messageInternalError);
+      }
+    });
+  }
     
     
     
