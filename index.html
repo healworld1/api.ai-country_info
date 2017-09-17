@@ -5,8 +5,8 @@
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
   <script type="text/javascript">
     var accessToken = "3f578e2210364da29214176ca90623d0",
-      baseUrl = "https://console.api.ai/api-client/demo/embedded/country_info/",
-      //baseUrl = "https://api.api.ai/v1/",
+      //baseUrl = "https://console.api.ai/api-client/demo/embedded/country_info/",
+      baseUrl = "https://api.api.ai/v1/",
       $speechInput,
       $recBtn,
       recognition,
@@ -101,7 +101,7 @@
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
         
-        
+        /*
         success: function(data) {
             prepareResponse(data);
         },
@@ -110,10 +110,11 @@
         }
       });
     }
-        /*
+    */
+        
         success: function(data) {
-          if (data.result.parameters."geo-country"	!= null && 
-              data.result.parameters.topic	!= null && 
+          if ((data.result.parameters."geo-country"	!= null || 
+              data.result.parameters.topic	!= null) && 
               data.result.action("country_info") ) {
             requestCountry_infoData(data);
           } else {
@@ -127,7 +128,7 @@
     }
     
     
-    /*
+    
     function requestCountry_infoData(val) {
       $.ajax({
         type: "POST",
@@ -147,7 +148,7 @@
 
       });
     }
-    */
+    
     
     
     
