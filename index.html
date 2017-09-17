@@ -113,8 +113,8 @@
     */
         
         success: function(data) {
-          if ((data.result.parameters."geo-country"	!= null || 
-              data.result.parameters.topic	!= null) && 
+          if ((data.result.parameters."geo-country"	!= "" || 
+              data.result.parameters.topic	!= "") && 
               data.result.action("country_info") ) {
             requestCountry_infoData(data);
           } else {
