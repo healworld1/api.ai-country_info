@@ -113,9 +113,9 @@
     */
         
         success: function(data) {
-          if ((data.result.parameters."geo-country"	!= "" || 
-              data.result.parameters.topic	!= "") && 
-              data.result.action("country_info") ) {
+          if ((data.result.parameters.geo-country	!= null || 
+              data.result.parameters.topic	!= null) && 
+              data.result.action.equals("country_info") ) {
             requestCountry_infoData(data);
           } else {
             prepareResponse(data)
