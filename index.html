@@ -11,8 +11,9 @@
       recognition,
       messageRecording = "Recording...",
       messageCouldntHear = "I couldn't hear you, could you say that again?",
-      messageInternalError1 = "Oh no, there has been an internal server error from api.ai",
-      messageInternalError2 = "Oh no, there has been an internal server error from heroku",
+      messageInternalError = "Oh no, there has been an internal server error",
+      //messageInternalError1 = "Oh no, there has been an internal server error from api.ai",
+      //messageInternalError2 = "Oh no, there has been an internal server error from heroku",
       messageSorry = "I'm sorry, I don't have the answer to that yet.";
     
     $(document).ready(function() {
@@ -98,6 +99,21 @@
         },
         data: JSON.stringify({query: text, lang: "en", sessionId: "unknown"}),
         
+        
+        
+        success: function(data) {
+          if (data.result.parameters."geo-country"	!= null && 
+              data.result.parameters.topic	!= null && 
+              data.result.action("country_info") ) {
+            prepareResponse(data)
+          }
+        },
+        error: function() {
+          respond(messageInternalError);
+        }
+      });
+    }
+        /*
         success: function(data) {
           if (data.result.parameters."geo-country"	!= null && 
               data.result.parameters.topic	!= null && 
@@ -108,11 +124,13 @@
           }
         },
         error: function() {
-          respond(messageInternalError1);
+          respond(messageInternalError);
         }
       });
     }
     
+    
+    /*
     function requestCountry_infoData(val) {
       $.ajax({
         type: "POST",
@@ -127,11 +145,12 @@
           prepareResponse(data);
         },
         error: function() {
-          respond(messageInternalError2);
+          respond(messageInternalError);
         }
 
       });
     }
+    */
     
     
     
