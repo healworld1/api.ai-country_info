@@ -91,7 +91,7 @@
       var text = $speechInput.val();
       $.ajax({
         type: "POST",
-        url: baseUrl + "query?v=20150910",
+        url: baseUrl + "query", //"query?v=20150910",
         contentType: "application/json; charset=utf-8",
         dataType: "json",
         headers: {
@@ -102,11 +102,7 @@
         
         
         success: function(data) {
-          if (data.result.parameters."geo-country"	!= null && 
-              data.result.parameters.topic	!= null && 
-              data.result.action("country_info") ) {
-            prepareResponse(data)
-          }
+            prepareResponse(data);
         },
         error: function() {
           respond(messageInternalError);
