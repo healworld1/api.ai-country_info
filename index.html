@@ -114,8 +114,8 @@
         
         success: function(data) {
           if (data.result.action == "country_info" 
-             && data.result.parameters.geo-country != ""
-             && data.result.parameters.topic != "") {
+             && data.result.parameters.geo-country !== ""
+             && data.result.parameters.topic !== "") {
             requestCountry_infoData(data);
           } else {
             prepareResponse(data)
