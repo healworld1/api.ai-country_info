@@ -113,7 +113,9 @@
     */
         
         success: function(data) {
-          if (data.result.action.equals("country_info") ) {
+          if (data.result.action == "country_info" 
+             && data.result.parameters.geo-country != ""
+             && data.result.parameters.topic != "") {
             requestCountry_infoData(data);
           } else {
             prepareResponse(data)
@@ -162,7 +164,7 @@
       var debugJSON = JSON.stringify(val, undefined, 2),
         spokenResponse = val.result.speech;
       
-      if (val.result.action.equals("country_info") {
+      //if (val.result.action.equals("country_info") {
       // //val.result.parameters.geo-country);
       
       respond(spokenResponse);
